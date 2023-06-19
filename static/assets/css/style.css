@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -29,6 +31,24 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+
+.apply-color {
+  background-color: #fdc134;
+  border-color: #fdc134;
+}
+
+.apply-color:hover {
+  border-color: #f1ad0e;
+  color: #fff;
+}
+
+.login-color{
+  color: black;
+  background-color: #7777ff;
+}
+.login-color:hover{
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -84,7 +104,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 #header .logo h1 a,
@@ -371,6 +391,7 @@ h6 {
   background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
   top: 5rem;
   position: relative;
+  padding-top: 7rem;
 }
 
 #hero h1 {
@@ -529,6 +550,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-img {
+  position: relative;
+  top: 2rem;
+  margin: 58px 0;
+  padding: 3.25rem;
+}
+
+
 .about .content {
   padding: 30px 0;
 }
@@ -826,7 +855,6 @@ section {
 .team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  min-height: 260px;
 }
 
 .team .member .pic img {
@@ -1219,7 +1247,7 @@ section {
   background: #fff;
   padding: 6px 10px;
   position: relative;
-  border-radius: 50px;
+  border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
@@ -1228,6 +1256,7 @@ section {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
+  outline: none;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"] {
@@ -1242,7 +1271,10 @@ section {
   background: #fdc134;
   color: #fff;
   transition: 0.3s;
-  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1261,8 +1293,8 @@ section {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
+  margin-right: 18px;
+  border-radius: 6px;
   text-align: center;
   width: 36px;
   height: 36px;

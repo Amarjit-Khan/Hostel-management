@@ -4,10 +4,19 @@ body {
 }
 
 #innercontainer {
-    background-image: linear-gradient(rgb(255, 249, 239), rgb(252, 240, 177));
-    opacity: 95%;
+    background-color: rgb(252, 240, 177);
+    opacity: 1;
     border-radius: 4%;
+    font-family: "Open Sans", sans-serif;
 
+}
+
+.white {
+    background-color: #fff;
+}
+
+.blue {
+    background-color: #8282ec;
 }
 
 #innerbox {
@@ -30,7 +39,7 @@ body {
     min-height: 60%;
     opacity: 96%;
     font-family: 'Gentium Book Basic', serif;
-    
+
 }
 
 *[role="form"] {
